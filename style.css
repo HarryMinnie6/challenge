@@ -32,7 +32,7 @@
 }
 h1{
     text-align: center;
-    padding:1rem;
+    margin:2rem;
 }
 img{
     display: block;
@@ -61,6 +61,7 @@ p:nth-child(3) {
     text-align: center;
     text-decoration: underline;
     margin-bottom: 1.2rem;
+    margin-top: 2rem;
     
 }
 p:nth-child(5) {
@@ -68,7 +69,7 @@ p:nth-child(5) {
     font-size: 1.2rem;
     text-align: center;
     padding: 10px;
-    margin-top:0.6rem;
+    margin-top:1rem;
    
     
 }
@@ -84,7 +85,10 @@ ul{
 }
 .table-holder{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 thead{
     background-color: rgb(170, 170, 170);
@@ -99,7 +103,14 @@ thead{
 table{
     border-spacing:0; /* Removes the cell spacing via CSS */
     border-collapse: collapse; 
-    box-shadow: 5px 5px 10px rgb(235, 235, 235);
+    box-shadow: 2px 5px 10px rgb(235, 235, 235);
+}
+.sermon-link{
+    text-align: center;
+    font-size: 1.1rem;
+    
+    
+    margin: 2rem 0rem;
 }
 
 .table-info-display{
@@ -145,6 +156,7 @@ tr:nth-child(even) {
 }
 .h2--banking-details_holder{
     margin: 1rem;
+    text-decoration: underline;
 }
 .banking-details{
     margin: 2rem;
@@ -165,6 +177,7 @@ tr:nth-child(even) {
     margin: 2rem;
     font-family: 'Rubik', sans-serif;
     font-size: 1.2rem;
+    
 }
 .description{
     text-align: center;
@@ -176,7 +189,7 @@ tr:nth-child(even) {
 .back-top-top{
     display: flex;
     position: absolute;
-    right: 8%;
+    right: 5%;
     justify-content: center;
     align-items: center;
     color: rgb(189, 189, 189);
