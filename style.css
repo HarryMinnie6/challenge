@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&family=Roboto:wght@300;500&family=Rubik&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header{
+    /* background-color: red; */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgb(255, 255, 255, 0.9)),url(https://arthurfrost.qflo.co.za/Images/communion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; 
+}
+.main-welcome{
+    
+    text-align: center;
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.7rem;
+}
+.main-description{
+    text-decoration: underline;
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4rem;
+}
+h1{
+    text-align: center;
+    padding:1rem;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgb(99, 99, 99);
+    padding:1rem;
+    margin-bottom: 0.8rem;
+}
+ul{
+    position: relative;
+    margin:1rem 0 0 3.1rem;
+    list-style: none;
+    border-bottom: 1px solid black;
+    left: 50%;
+    transform: translateX(-370px);
+    font-family: 'Muli', sans-serif;
+    width:700px;
+}
+
+p:nth-child(3) {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 1.2rem;
+    
+}
+p:nth-child(5) {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    margin-top:0.6rem;
+   
+    
+}
+p:nth-child(6) {
+    margin-top:0.6rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+ul{
+ font-size: rem;
+}
+.table-holder{
+    display: flex;
+    justify-content: center;
+}
+thead{
+    background-color: rgb(170, 170, 170);
+}
+.songs{
+    align-content: center;
+    width: 100vw;
+    /* background-color: rgb(207, 35, 35); */
+    width:80%;
+    /* padding:5px 0px; */
+}
+table{
+    border-spacing:0; /* Removes the cell spacing via CSS */
+    border-collapse: collapse; 
+    box-shadow: 5px 5px 10px rgb(235, 235, 235);
+}
+
+.table-info-display{
+    text-align: center;
+    height:20px;
+    
+}
+
+
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+tr:nth-child(even) {
+    background-color: rgb(235, 235, 235)
+}
+.tbl-head{
+    background-color:rgb(230, 230, 230);
+    text-decoration: underline;
+    padding: 5px;
+}
+.song-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* border-radius: 5px; */
+    box-shadow: none;
+    padding:0.3rem;
+    margin-top: 0.8rem;  
+    
+}
+.img-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banking-details_holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+.h2--banking-details_holder{
+    margin: 1rem;
+}
+.banking-details{
+    margin: 2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.p-banking-details{
+    margin: 1.1rem;
+}
+.welcome{
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.7rem;
+}
+.about {
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+}
+.description{
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+.back-top-top{
+    display: flex;
+    position: absolute;
+    right: 8%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(189, 189, 189);
+    font-size: 2rem;
+}
+.back-top-top:hover{
+    cursor: pointer;
+    color: rgb(82, 82, 82);
+}
+
